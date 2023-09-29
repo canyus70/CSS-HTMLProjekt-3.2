@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "roboto" ;
+    src: url(./../fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+
+body {
+    font-family: "roboto";
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+} */
+
+.first_header {
+    background: url("../../assets/img/Lev3_2_Project_css-vertiefung_designer-challenge/ilustracion_people.png") right top / contain
+    no-repeat,
+    url("../img/Lev3_2_Project_css-vertiefung_designer-challenge/ilustracion1.png") right top / contain no-repeat;
+    width: 100%;
+    height: 100%;
+    /* padding-bottom: 200px; */
+}
+
+
+/* .first_header {
+
+    background-image: url(./../img/Lev3_2_Project_css-vertiefung_designer-challenge/ilustracion1.png);
+    /* background-image: url(./../img/Lev3_2_Project_css-vertiefung_designer-challenge/ilustracion_people.png); */
+    /* background-position: top right; */
+    /* background-size: cover;
+    width: 1440px;
+    height: 648px;
+} */ 
+
+.logo {
+    padding: 25px 0px 40px 60px;
+}
+
+.logo p {
+    font-size: 0.75rem;
+}
+
+.art_header {
+    padding: 180px;
+}
+
+h1 {
+    font-size: 3.25rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.icon {
+    width: 32px;
+    height: 28px;
+    position: relative;
+}
+
+.scroll {
+    color: red;
+}
+
+.scroll_div {
+padding-top: 40px;
+}
+
+.section1 {
+    background-image: url(./../img/Lev3_2_Project_css-vertiefung_designer-challenge/images.jpg);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 600px;
+}
+
+.section2 {
+    padding-top: 200px;
+}
+
+.glüh {
+    display: flex;
+    align-items: baseline;
+}
+
+.glüh_birne {
+    padding: 0px 40px 0px 100px;
+}
+
+.glüh_text {
+    padding: 44px 300px 150px 100px;
+
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.header2 {
+    padding: 30px 200px 150px 200px;
+}
+
+.art {
+    display: flex;
+    flex-grow: 1;
+
+}
+
